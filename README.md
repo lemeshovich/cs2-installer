@@ -1,4 +1,4 @@
-Download repository zip.
-Unzip Counter-Strike 2 to location where the game will be stored.
-Run DOWNLOAD.bat to download the game and other addons automaticly.
-Play GL&HF.
+1. Download repository zip.
+2. Unzip Counter-Strike 2 to location where the game will be stored.
+3. Run DOWNLOAD.bat to download the game and other addons automaticly.
+4. Play GL&HF.
