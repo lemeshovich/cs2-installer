@@ -3,4 +3,4 @@
 3. Run 'DOWNLOAD.bat' to download the latest available game build, various patches, custom maps and create desktop shortcuts.
 4. Play GL&HF.
 
-USE AT YOUR OWN RISK, DO NOT RUN THIS ON YOU MAIN STEAM ACCOUNT
+USE AT YOUR OWN RISK, DO NOT RUN THIS FROM YOUR MAIN STEAM ACCOUNT
