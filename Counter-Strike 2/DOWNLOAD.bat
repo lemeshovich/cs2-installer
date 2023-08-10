@@ -55,8 +55,9 @@ echo Creating desktop shortcuts...
 powershell "$s=(New-Object -COM WScript.Shell).CreateShortcut('%userprofile%\Desktop\Counter-Strike 2.lnk');$s.TargetPath='%~dp0game\bin\win64\cs2.exe';$s.Arguments='-language english -condebug -novid -console -insecure +connect 176.36.33.226';$s.IconLocation='%~dp0cs2.ico';$s.Save()"
 powershell "$s=(New-Object -COM WScript.Shell).CreateShortcut('%userprofile%\Desktop\CS2 Update.lnk');$s.TargetPath='%~dp0UPDATE.exe';$s.WorkingDirectory='%~dp0';$s.IconLocation='%~dp0cs2.ico';$s.Save()"
 
-echo The script done its job.
+echo The script done its job. You should keep Steam running to launch the game.
 %AppActivate% "CS2 Installer"
+echo DO NOT RUN THE GAME WITH YOUR MAIN STEAM ACCOUNT, USE SMURF!
 echo Press any key to start the game otherwise close this window...
 pause >nul
 START %userprofile%"\Desktop\Counter-Strike 2.lnk"
